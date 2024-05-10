@@ -1,0 +1,10 @@
+bcp ^
+    boost/container/flat_set.hpp ^
+    boost/container/small_vector.hpp ^
+    boost/container/static_vector.hpp ^
+    boost/intrusive/list.hpp ^
+    boost/intrusive/set.hpp ^
+    boost/graph/depth_first_search.hpp ^
+    boost/graph/dominator_tree.hpp ^
+    boost/graph/strong_components.hpp ^
+    --boost="%1" .
